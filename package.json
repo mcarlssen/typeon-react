@@ -1,6 +1,6 @@
 {
   "name": "@mcarlssen/typeon-react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "module",
   "description": "A simple, easily customizable React typewriter-effect component with no dependencies",
   "main": "dist/cjs/index.js",
