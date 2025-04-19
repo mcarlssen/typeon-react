@@ -5,28 +5,6 @@ node_modules/
 dist/
 build/
 
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
-.history/
-
-# IDE - JetBrains (WebStorm, IntelliJ, etc)
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# IDE - Visual Studio
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
 # Environment files
 .env
 .env.*
@@ -66,3 +44,6 @@ coverage/
 
 # TypeScript cache
 *.tsbuildinfo 
+
+# Demo files
+demo.mp4

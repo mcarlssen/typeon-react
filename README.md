@@ -8,6 +8,8 @@ https://github.com/mcarlssen/react-typeon
 - Zero dependencies
 - Fully customizable
 
+https://github.com/user-attachments/assets/88207864-6626-4d59-93e5-554113351a86
+
 ## Installation
 ```bash
 npm install @mcarlssen/typeon-react
