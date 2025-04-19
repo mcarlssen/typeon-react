@@ -1,8 +1,8 @@
 import React from 'react';
 import { render, screen, act } from '@testing-library/react';
-import { TypeWriter } from '../';
+import { TypeOn } from '../';
 
-describe('TypeWriter', () => {
+describe('TypeOn', () => {
   beforeEach(() => {
     jest.useFakeTimers();
   });
@@ -12,12 +12,12 @@ describe('TypeWriter', () => {
   });
 
   it('renders without crashing', () => {
-    render(<TypeWriter phrases={['Test']} />);
+    render(<TypeOn phrases={['Test']} />);
     expect(screen.getByText('_')).toBeInTheDocument();
   });
 
   it('types out the first phrase', () => {
-    render(<TypeWriter phrases={['Hello']} baseSpeed={100} />);
+    render(<TypeOn phrases={['Hello']} baseSpeed={100} />);
     
     // Type first character
     act(() => {
@@ -33,7 +33,7 @@ describe('TypeWriter', () => {
   });
 
   it('respects pauseDuration', () => {
-    render(<TypeWriter phrases={['Test']} pauseDuration={1000} baseSpeed={100} />);
+    render(<TypeOn phrases={['Test']} pauseDuration={1000} baseSpeed={100} />);
     
     // Type full word
     act(() => {
