@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 interface TypeOnProps {
   phrases: string[]; 
@@ -7,7 +7,7 @@ interface TypeOnProps {
   className?: string; // default 'type-on-text'
 }
 
-  const TypeOn: React.FC<TypeOnProps> = ({
+const TypeOn: React.FC<TypeOnProps> = ({
   phrases,
   baseSpeed = 24,
   pauseDuration = 3000,
@@ -63,7 +63,10 @@ interface TypeOnProps {
   }, [text, isDeleting, phraseIndex, isPaused, phrases, baseSpeed, pauseDuration]);
 
   return (
-    <span className={className}>
+    <span 
+      className={className}
+      role="text"
+    >
       {text}
       <span className="cursor">_</span>
     </span>
