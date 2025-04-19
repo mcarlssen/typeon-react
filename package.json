@@ -1,0 +1,50 @@
+{
+  "name": "typewriter-react",
+  "version": "1.0.0",
+  "description": "A simple, easily customizable React typewriter-effect component with no dependencies",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "typewriter",
+    "animation",
+    "text",
+    "typing",
+    "typescript"
+  ],
+  "author": "Mike Thorn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcarlssen/typeon-react"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.0.0",
+    "rollup": "^3.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^4.9.0"
+  },
+  "files": [
+    "dist"
+  ]
+} 
