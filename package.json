@@ -1,5 +1,5 @@
 {
-  "name": "typeon-react",
+  "name": "@mcarlssen/typeon-react",
   "version": "1.0.0",
   "type": "module",
   "description": "A simple, easily customizable React typewriter-effect component with no dependencies",
