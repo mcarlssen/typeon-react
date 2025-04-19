@@ -14,8 +14,8 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
       - run: npm run build
-      # Publish to npm
-      - run: npm publish
+      # Publish to npm using public access flag
+      - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       # Publish to GitHub Packages

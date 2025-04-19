@@ -10,9 +10,9 @@ https://github.com/mcarlssen/react-typeon
 
 ## Installation
 ```bash
-npm install typeon-react
+npm install @mcarlssen/typeon-react
 # or
-yarn add typeon-react
+yarn add @mcarlssen/typeon-react
 ```
 
 ## Usage
