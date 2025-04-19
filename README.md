@@ -1,6 +1,8 @@
 # TypeOn React Component
 A simple and customizable React component that creates a typewriter effect for text animation. Written in TypeScript with zero dependencies.
 
+https://github.com/mcarlssen/react-typeon
+
 ## Features
 - Lightweight and performant
 - Zero dependencies
@@ -88,4 +90,4 @@ Note: The demo project in the repository includes additional dependencies, but t
 Contributions are welcome! 
 
 ## License
-MIT © Mike Thorn
+MIT © Mike Thorn (@mcarlssen)
